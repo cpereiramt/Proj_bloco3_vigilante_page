@@ -13,6 +13,8 @@ body {
 }
 
 #cabecalho h2 {
+  padding-left: 2%;
+  padding-right: 2%;
   display: inline-block;
   margin-right: 50px;
   color: white;
@@ -22,6 +24,8 @@ body {
 }
 
 #cabecalho {
+  margin-top: -10%;
+  width: 100%;
   padding: 1%;
   position: fixed;
   background-color: darkolivegreen;
@@ -33,24 +37,82 @@ body {
   width: 60%;
 }
 
+.thumbnails{
+  width: 80%;
+  display: inline-block;
+  margin-top: 10%;
+  border: 7px  ridge  blue;
+
+}
+
 .footer-id {
   width: 10px;
 }
 
 #rodape {
   background-color: darkslategray;
+  width: 100%;
 }
 
 .lado-direito {
   float: right;
-  width: 21%;
+  width: 19%;
   margin-top: 30px;
-  background-color: darkgray;
-  padding: 10px;
+  background-color: rgb(226, 226, 231);
+  padding: 5%;
   height: 100%;
 }
 
 #capa {
   width: 60%;
-  margin-top: 100px;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#article-top{
+
+padding-top: 150px;
+
+}
+
+#ajuste-direita{
+margin-top: 15%;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+li{
+
+text-align: center;
+list-style: none;
+margin-top: 3%;
+
+}
+#rodape p{
+
+text-align: center;
+color: white;
+
+}
+
+#rodape p a{
+
+  text-align: center;
+  color: white;
+  
+  }
+
+#table_01{
+
+
+
+}
+
+main{
+
+background-color: rgb(211, 185, 185);
+
 }
