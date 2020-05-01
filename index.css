@@ -16,12 +16,30 @@
    
     padding: 1rem;
    
-    background-color: #e3f2fd ;
+    background-color: #455a64;
    
-    border-bottom: 1px solid #4a148c;
+    border-bottom: 1px solid #ffa726;
+   
+    color: #fff;
    
   }
-
+   
+  .collapsible-body {
+   
+    display: none;
+   
+    border-bottom: 1px solid #ddd;
+   
+    -webkit-box-sizing: border-box;
+   
+            box-sizing: border-box;
+   
+    padding: 2rem;
+   
+    background-color: #eceff1 ;
+   
+  }
+  
   body {
    background-color: rgb(228, 228, 228);
 
